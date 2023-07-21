@@ -8,7 +8,7 @@ import Signin from './Signin'
 import Signup from './Signup'
 import Appbar from './Appbar'
 import Addcourses from './Addcourses';
-
+import Courses from './Courses'
 function App() {
   
 
@@ -27,6 +27,7 @@ function App() {
                 <Route path="/signup" element={<Signup />} />
                 {/* {/* <Route path="/about" element={<CreateCourse />} /> */}
                 <Route path="/addcourses" element={<Addcourses />} /> 
+                <Route path="/courses" element={<Courses />} /> 
                 
             </Routes>
         </Router>

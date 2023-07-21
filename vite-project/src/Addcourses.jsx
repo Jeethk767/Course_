@@ -74,7 +74,7 @@ function Addcourses(){
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
-        localStorage.setItem("token", data.token);
+        alert("Added the courses")
       })
       .catch((error) => {
         throw error;
